@@ -1,0 +1,117 @@
+:root{
+    --fundo-secundario:#00ff2a;
+    --texto-primario:#E51E00;
+    --linhas-principais:#278219;
+    --cor-de-fundo:#ffffff;
+    --texto-secundario:#000000;
+    --fonte-principal: 'Inter';
+}
+
+header {
+    border-bottom: solid var(--linhas-principais);
+    padding: 20px;
+    font-size: 30px;
+    color: var(--linhas-principais);
+}
+
+body{
+    color: var(--texto-primario);
+    background: var(--cor-de-fundo);
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+.chamada-divulgação {
+    font-size: 50px;
+    
+    
+}
+
+.chamada-texto{
+    font-size: 20px;
+    color: var(--texto-secundario);
+    margin-right: 5%;
+    
+}
+
+.chamada {
+    background-image: url("img/ambiente.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--fundo-secundario);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-right: 20px;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: right;
+    height: 25vh;
+}
+
+.categoria {
+    padding-bottom: 80px;
+    padding-top: 60px;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    height: 25vh;
+}
+
+.categoria-divulgação {
+    font-size: 50px; 
+}
+
+.categoria-texto{
+    font-size: 20px;
+    color: var(--texto-secundario);
+    margin-right: 5%;
+}
+
+.grupo {
+    background-image: url("img/Untitled.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--fundo-secundario);
+    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-right: 20px;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: right;
+    height: 25vh;
+}
+
+.grupo-divulgação {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.grupo-botao{
+    font-size: 20px;
+    color: var(--texto-secundario);
+    margin-right: 5%;
+}
+
+.conjunto {
+    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-left: 20px;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: left;
+    height: 25vh;
+}
+
+.conjunto-divulgação {
+    font-size: 50px; 
+}
+
+.conjunto-texto{
+    font-size: 20px;
+    color: var(--texto-secundario);
+    margin-right: 5%;
+}
