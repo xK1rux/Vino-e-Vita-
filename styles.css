@@ -1,10 +1,10 @@
 :root{
-    --fundo-secundario:#00ff2a;
-    --texto-primario:#E51E00;
-    --linhas-principais:#278219;
-    --cor-de-fundo:#ffffff;
-    --texto-secundario:#000000;
-    --fonte-principal: 'Inter';
+    --fundo-secundario:#807e2a;
+    --texto-primario:#740005;
+    --linhas-principais:#444801;
+    --cor-de-fundo:#eadac0;
+    --texto-secundario:#3f1503;
+    --fonte-principal: 'Italiana';
 }
 
 header {
@@ -22,31 +22,30 @@ body{
 }
 
 .chamada-divulgação {
-    font-size: 50px;
-    
-    
+    font-size: 50px; 
 }
 
 .chamada-texto{
     font-size: 20px;
     color: var(--texto-secundario);
     margin-right: 5%;
-    
 }
 
 .chamada {
-    background-image: url("img/ambiente.jpg");
+    background-image: url("img/jantar vino e vita.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--fundo-secundario);
     padding-bottom: 80px;
     padding-top: 80px;
     padding-right: 20px;
+    padding-left: 175px;
     margin-top: 5%;
     display: grid;
     grid-template-columns: 50%;
     justify-content: right;
     height: 25vh;
+    font-size: 20px;
 }
 
 .categoria {
@@ -64,7 +63,7 @@ body{
 }
 
 .categoria-texto{
-    font-size: 20px;
+    font-size: 25px;
     color: var(--texto-secundario);
     margin-right: 5%;
 }
@@ -73,6 +72,7 @@ body{
     background-image: url("img/Untitled.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 20%;
     background-color: var(--fundo-secundario);
     padding-bottom: 80px;
     padding-top: 60px;
@@ -82,6 +82,7 @@ body{
     grid-template-columns: 50%;
     justify-content: right;
     height: 25vh;
+    font-size: 50px;
 }
 
 .grupo-divulgação {
@@ -90,12 +91,21 @@ body{
 }
 
 .grupo-botao{
-    font-size: 20px;
-    color: var(--texto-secundario);
+    font-size: 30px;
+    color: var(--cor-de-fundo);
     margin-right: 5%;
+    text-decoration: none;
+    background-color: var(--texto-primario);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
 }
 
 .conjunto {
+    background-image: url("img/logo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 85%;
     padding-bottom: 80px;
     padding-top: 60px;
     padding-left: 20px;
@@ -104,6 +114,7 @@ body{
     grid-template-columns: 50%;
     justify-content: left;
     height: 25vh;
+    font-size: 30px;
 }
 
 .conjunto-divulgação {
@@ -111,7 +122,7 @@ body{
 }
 
 .conjunto-texto{
-    font-size: 20px;
+    font-size: 25px;
     color: var(--texto-secundario);
     margin-right: 5%;
 }
